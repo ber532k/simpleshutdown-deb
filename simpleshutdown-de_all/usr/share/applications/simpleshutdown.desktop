@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=simpleshutdown
+Categories=System;X-XFCE;X-Xfce-Toplevel;
+OnlyShowIn=XFCE;
+Icon=system-log-out
+StartupNotify=false
+Terminal=false
+Name=Shutdown
+Name[de]=Herunterfahren
+Comment=Shutdown computer
+Comment[de]=Computer ausschalten

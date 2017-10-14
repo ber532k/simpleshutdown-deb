@@ -1,0 +1,12 @@
+#!/bin/sh
+
+shutdown() {
+	echo Shutting down ...
+	xfce4-session-logout -f -h
+}
+
+abort() {
+	echo Recieved user abort
+}
+
+zenity --question --ok-label="Ja" --cancel-label="Nein" --text="Computer ausschalten?" --title="Herunterfahren" && shutdown || abort

@@ -1,0 +1,10 @@
+Package: simpleshutdown-de
+Version: 0.1.0-1
+Architecture: all
+Maintainer: Frank Seifferth <frankseifferth@aol.de>
+Depends: zenity, xfce4-session
+Provides: simpleshutdown
+Recommends: 
+Section: x11, xfce4
+Priority: optional
+Description: Dead simple shutdown prompt (german localization)
